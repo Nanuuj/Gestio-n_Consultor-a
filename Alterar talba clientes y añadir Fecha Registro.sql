@@ -1,0 +1,1 @@
+ALTER TABLE Clientes ADD FechaRegistro DATE DEFAULT GETDATE();

@@ -1,0 +1,6 @@
+CREATE TABLE clientes (
+	ClienteID INT PRIMARY KEY IDENTITY (1,1),
+	Nombre VARCHAR(50) NOT NULL,
+	Industria VARCHAR(50),
+	Pais VARCHAR(20)
+)

@@ -1,0 +1,6 @@
+CREATE TABLE empleado (
+	EmpleadoID INT PRIMARY KEY IDENTITY (1,1),
+	Nombre VARCHAR(50) NOT NULL,
+	Cargo VARCHAR(50),
+	Salario DECIMAL (10,2)
+)
